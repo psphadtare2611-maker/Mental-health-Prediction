@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+joblib
+pandas
+# Mental_Health_Model.pkl is a pickled scikit-learn pipeline; load it with the version it was verified against
+scikit-learn==1.9.1
