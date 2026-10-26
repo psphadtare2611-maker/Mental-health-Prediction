@@ -104,7 +104,7 @@ def group_country(country: str) -> str:
 
 @app.get('/')
 def greet():
-    return {'Welcome to Sheryians AI School Guys'}
+    return {'Welcome Guys I am Paras'}
 
 
 @app.post('/predict', response_model=PredictionResponse) #6.77777
