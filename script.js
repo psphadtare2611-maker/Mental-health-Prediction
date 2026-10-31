@@ -4,7 +4,7 @@
   // Local FastAPI (python -m uvicorn main:app --reload) when the page is served from this machine,
   // otherwise the deployed backend.
   const LOCAL_API = "http://127.0.0.1:8000";
-  const DEPLOYED_API = "https://mansik-santulan-score.onrender.com";
+  const DEPLOYED_API = "https://mental-health-prediction-tqei.onrender.com";
   const isLocalPage = ["localhost", "127.0.0.1", ""].includes(window.location.hostname);
   const API_BASE = isLocalPage ? LOCAL_API : DEPLOYED_API;
 
